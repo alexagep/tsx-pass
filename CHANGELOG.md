@@ -1,4 +1,9 @@
 # Changelog
+## 0.1.1
+
+* Create a file named "example.ts" in the root directory with a descriptive name that represents the example you want to showcase.
+* added README file
+* added LICENSE
 
 ## 0.1.0
 

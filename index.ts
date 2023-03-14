@@ -1,13 +1,13 @@
 import md5 from "md5";
 
 interface HashPassOptions {
-  salt: number;
-  rounds: number;
+  salt?: number;
+  rounds?: number;
 }
 
 export const hashPass = (
   rawPassword: string,
-  { salt = 20, rounds = 15 }: HashPassOptions = { salt: 20, rounds: 15 }
+  { salt, rounds }: HashPassOptions = { salt: 20, rounds: 15 }
 ): string => {
   let hashed = md5(rawPassword + salt);
   for (let i = 0; i <= rounds; i++) {
