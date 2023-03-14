@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/alexagep/hashpass#readme",
   "devDependencies": {
+    "@types/md5": "^2.3.2",
     "eslint": "^8.36.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
   }
 }
