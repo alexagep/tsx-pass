@@ -1,0 +1,24 @@
+{
+  "name": "tsx-pass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexagep/hashpass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexagep/hashpass/issues"
+  },
+  "homepage": "https://github.com/alexagep/hashpass#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
+  }
+}
