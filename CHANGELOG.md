@@ -1,4 +1,7 @@
 # Changelog
+## 0.1.2
+
+* debugged and updated example and index files
 ## 0.1.1
 
 * Create a file named "example.ts" in the root directory with a descriptive name that represents the example you want to showcase.
